@@ -1,4 +1,6 @@
-list=[1,2,3,4,5,6,7,8,9,10]
+list=[]
+for i in range(1,11):
+    print(list.append(i))
 print("original list is ", list)
 b=list[0:5]
 print("the first five extracted values are ", b)
